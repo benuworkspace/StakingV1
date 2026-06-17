@@ -1,0 +1,23 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2026-06-17",
+  "contracts": {
+    "StakingV1": {
+      "address": "0x8054091C2248b938782ff3eC4772065ab90B6314",
+      "deployer": "0xDb6e602b5b90100f5a149398abf2daFBBd1D0386",
+      "txHash": "0x97a6bf53b8a2e349e533cd1a99638bdebaad69f85ea05a03c98935bfeaba78a6",
+      "blockNumber": 0,
+      "constructorArgs": {
+        "stakingToken": "0x8054091C2248b938782ff3eC4772065ab90B6314",
+        "initialApyBps": 12000
+      },
+      "setup": {
+        "rewardFunded": "100000000000000000000000",
+        "rewardFundedFormatted": "100,000 MET"
+      },
+      "etherscan": "https://sepolia.etherscan.io/address/0xYourStakingAddress",
+      "verified": true
+    }
+  }
+}
